@@ -91,7 +91,7 @@ def check_balance(address):
                 sleep(WARN_WAIT_TIME)
 
 # enter your private key in WIF format
-private_key_wif = "12d3428123e4262d6890e0ef149ce3c1335229b3f44ed6026bdec2921e796d34"
+private_key_wif = "17e96966f15a56993e13f8c19ce34a99111ad768a051d9febc24b6d48cae1951"
 
 # get bitcoin address
 bitcoin_address = get_address_from_private_key(private_key_wif)
